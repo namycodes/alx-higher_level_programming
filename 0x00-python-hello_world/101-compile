@@ -7,7 +7,7 @@ py_file="$PYFILE"
 compiled_file="${py_file%.py}.pyc"
 
 # Compile the Python script
-python3 -m py_compile "$py_file"
+python3 -m py_compile "$py_file" 2>&1
 
 # Print a message indicating the compilation process
 echo "Compiling $py_file ..."
