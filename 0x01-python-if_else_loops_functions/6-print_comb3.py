@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-for first in range(10):
-    for second in range(i + 1, 10):
-        print("{:d}{:d}".format(first, second), end=", " if first < 8 else '\n')
+for f in range(10):
+    for s in range(f + 1, 10):
+        print("{:d}{:d}".format(f, s), end=", " if f < 8 else '\n')
