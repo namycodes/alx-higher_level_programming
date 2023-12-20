@@ -1,4 +1,10 @@
 #!/usr/bin/python3
+"""
+This module defines a class called Square
+which retuns nothing by using pass key word
+"""
+
+
 class Square:
-    """python3 -c 'print(__import__("my_module").MyClass.___doc__)'"""
+    """This is an empty class"""
     pass
