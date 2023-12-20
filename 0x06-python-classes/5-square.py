@@ -10,10 +10,10 @@ class Square:
     """
     def __init__(self, size=0):
         self.__size = size
-    """
-    This method returns the area when called
-    """
     def area(self):
+        """
+        Return the area
+        """
         return(self.__size*self.__size)
 
     @property
@@ -28,10 +28,10 @@ class Square:
         else:
             if value < 0:
                 raise ValueError("size must be >= 0")
-    """
-    This module prints the square using #
-    """
     def my_print(self):
+        """
+        Prints the Value using # to print a square
+        """
         if self.size == 0:
             print()
         else:
