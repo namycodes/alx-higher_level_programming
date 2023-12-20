@@ -19,10 +19,18 @@ class Square:
         return(self.__size*self.__size)
 
     @property
+    """
+    returns the protected value to be available for 
+    size module setter
+    """
     def size(self):
         return self.__size
 
     @size.setter
+    """
+    The size module getting the value of protected size
+    property and then assigning it to value for modifications
+    """
     def size(self, value):
         self.__size = value
         if type(value) != int:
