@@ -1,4 +1,4 @@
-#!/usr/python3
+#!/usr/bin/python3
 """
 This is module uses setters, property operators
 and getters
