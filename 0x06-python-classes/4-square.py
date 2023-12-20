@@ -20,7 +20,7 @@ class Square:
 
     @property
     """
-    returns the protected value to be available for 
+    returns the protected value to be available for
     size module setter
     """
     def size(self):
