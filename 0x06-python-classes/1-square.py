@@ -11,4 +11,4 @@ class Square:
     It is the first module to run when a class is called
     """
     def __init__(self, __size):
-        self.size = __size
+        self.__size = __size
