@@ -17,11 +17,15 @@ class Square:
     """
     def area(self):
         return(self.__size*self.__size)
-
+    """
+    Making size to be a property attribute
+    """
     @property
     def size(self):
         return self.__size
-
+    """
+    Accesing the size value using setter
+    """
     @size.setter
     def size(Self, value):
         if type(value) != int:
